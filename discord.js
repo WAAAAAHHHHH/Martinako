@@ -28,13 +28,10 @@ client.on(Events.MessageCreate, async (message) => {
   if (message.content.toLowerCase() === "!isp") {
     try {
       await message.author.send(
-`Hey! Here are my links:
+`contant me on insta for dev roles, love you.'
 
-📸 Instagram
 https://www.instagram.com/aboredloner/
 
-💻 GitHub
-https://github.com/WAAAAAHHHHH`
       );
 
       // Optional confirmation in the channel
